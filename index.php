@@ -2,7 +2,7 @@
 include_once('includes/header.php');
 include_once('pages/home.php');
 	
-	/*
+
 	if(isset($_GET['acao'])){
 	$acao = $_GET['acao'];
 		if($acao == 'page-home'){
