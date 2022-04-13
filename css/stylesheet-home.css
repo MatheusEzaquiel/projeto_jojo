@@ -1,0 +1,85 @@
+*{
+	margin: 0; padding: 0;
+	background-color: #E21A7B;
+}
+.center{
+	margin-right: auto;
+	margin-left: auto;
+}
+header{
+	width: 100%;
+	background: #A12762;
+	display:  flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+header img{
+	width: 60px;
+	border-radius: 100%;
+	background: none;
+	padding-left: 10px;
+}
+header nav{
+	margin: 0; padding: 0;
+	background:  none;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	background: none;
+	margin-right: 10px;
+}
+nav li{
+	margin:0 20px ;
+	background: none;
+}
+nav li a{
+	background: none;
+	text-decoration: none;
+	color: #fff;
+	font-family: arial;
+	font-size: 30px;
+}
+nav a:hover{
+	color: #E21A7B;
+	text-decoration: underline;
+}
+
+/*Home area*/
+h1#apresentacao{
+	font: normal 70pt Bodoni Bd BT;
+	color: #ffffff;
+	background: none;
+	text-align: center;
+	margin-top: 150px;
+}
+p#apresentacao{
+	font: normal 22pt Bodoni MT fb;
+	color: #ffffff;
+	background: none;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.center{
+	margin-right:  auto; margin-left: auto;
+}
+div.container{
+	width:  200px;
+	height: 120px;
+	/*background: #4287f5;*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 120px;
+}
+.container div.item{
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 100%;
+}
+/*About area*/

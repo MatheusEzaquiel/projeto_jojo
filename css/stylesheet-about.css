@@ -1,0 +1,19 @@
+div.paragrafo-about{
+	width: 600px;
+	margin-top: 40px;
+	display: flex;
+}
+div.texto-about h1{
+	text-align: left;
+	font: normal 50pt Bodoni Bd BT;
+}
+div.texto-about p{
+	text-align: justify;
+	font: normal 15pt Bodoni MT fb;
+}
+img.about{
+	width: 300px;
+	border-radius: 7%;
+	margin-top: 100px;
+	margin-left: 700px;
+}
