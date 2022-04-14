@@ -1,0 +1,150 @@
+*{
+	margin: 0; padding: 0;
+	background-color: #E21A7B;
+}
+.center{
+	margin-right: auto;
+	margin-left: auto;
+}
+/*=== Cabeçalho ===*/
+header{
+	width: 100%;
+	background: #A12762;
+	display:  flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+header a#logo{
+background: none;
+}
+header a#logo img{
+	width: 90px;
+	margin-left: 20px;
+	background: none;
+
+}
+header nav{
+	margin: 0; padding: 0;
+	background:  none;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	background: none;
+	margin-right: 10px;
+}
+nav li{
+	margin:0 20px ;
+	background: none;
+}
+nav li a{
+	background: none;
+	text-decoration: none;
+	color: #fff;
+	font-family: arial;
+	font-size: 30px;
+}
+nav a:hover{
+	color: #E21A7B;
+	text-decoration: underline;
+}
+
+/*=== Página Home ===*/
+h1#apresentacao{
+	font: normal 70pt Bodoni Bd BT;
+	color: #ffffff;
+	background: none;
+	text-align: center;
+	margin-top: 140px;
+}
+p#apresentacao{
+	font: normal 22pt Bodoni MT fb;
+	color: #ffffff;
+	background: none;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.center{
+	margin-right:  auto; margin-left: auto;
+}
+div.container{
+	width:  200px;
+	height: 120px;
+	/*background: #4287f5;*/
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 120px;
+}
+.container div.item{
+	width: 40px;
+	height: 40px;
+	background: #fff;
+	border-radius: 100%;
+}
+/*=== Página Sobre ===*/
+div.paragrafo-about{
+	width: 600px;
+	margin-top: 40px;
+	display: flex;
+}
+div.texto-about h1{
+	text-align: left;
+	font: normal 50pt Bodoni Bd BT;
+	color: #ffffff;
+}
+div.texto-about p{
+	text-align: justify;
+	font: normal 15pt Bodoni MT fb;
+	color: #ffffff;
+}
+/*=== Página Stands ===*/
+h1.titulo{
+	font: normal 50pt Bodoni Bd BT;
+	color: #ffffff;
+	background: none;
+	text-align: center;
+	margin-top: 30px;
+}
+h2.titulo2{
+	font: normal 20pt Bodoni Bd BT;
+	color: #ffffff;
+	background: none;
+	text-align: center;
+	margin-top: 0px;
+}
+table#tabela{
+	width: 415px;
+	height: 315px;
+	margin-top: 20px;
+	padding: 0px;
+	border-collapse: collapse;
+}
+table#tabela tr{
+	padding: 0px;
+	margin: 0px;
+}
+table#tabela td{
+	border:  5px solid #A12762;
+	padding: 0px;
+	margin: 0px;
+	color:  #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	width: 205px;
+	height: 105px;
+}
+table#tabela td.cabecalho{
+	width: 105px;
+	height: 30px;
+	background-color: #4a4349;
+}
+td img{
+	width: 205px;
+	height: 115px;
+	padding: 0px;
+	margin-bottom: -4px;
+}
