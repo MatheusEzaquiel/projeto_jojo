@@ -14,13 +14,6 @@ header{
 	align-items: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
-
-}
-header img{
-	width: 60px;
-	border-radius: 100%;
-	background: none;
-	padding-left: 10px;
 }
 header nav{
 	margin: 0; padding: 0;
